@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recreate-Form</title>
+</head>
+
+<body>
+  <h2>Registration Form</h2>
+  <form action="/server">
+    <div>
+      <input type="text" placeholder="First name" id="name" name="name">
+      <input type="text" placeholder="Last name" id="Lname" name="Lname">
+    </div>
+    <div>
+      <label for="gender">Please select gender </label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <div>
+      <label for="TOS">Do you agree to all terms of sevice?</label>
+      <input type="checkbox" id="TOS" name="TOS">
+      <label for="TOS">Yes, I agree</label>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+</body>
+
+</html>
